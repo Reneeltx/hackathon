@@ -1,1 +1,47 @@
-style.css
+*{
+	background: blue;
+	margin: 0;
+	padding-top: 10px;
+}
+html,body{
+	height: 100%
+}
+body{
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	font-family: arial;
+	justify-content: center;
+}
+
+.form-container form{
+	display: flex;
+	justify-content: center;
+}
+.page-footer{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.page-footer h1{
+	font-size: 20px;
+}
+.page-footer h2{
+	font-size: 18px;
+}
+.page-footer h3{
+	font-size: 15px;
+}
+.page-footer img{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.footer-box{
+    width: 150px;
+	height: 100px;
+	padding: 25px;
+	border:25px soild #e4e4e4;
+}
+
+
